@@ -1,0 +1,1463 @@
+body, html{
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-size: cover; 
+  scroll-behavior: smooth;
+
+
+}
+
+
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  /* background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important; */
+}
+
+/* img{
+  position: absolute;
+} */
+
+button{
+  text-decoration: none;
+  z-index:1;
+}
+
+section{
+  height: 100vh;
+  min-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+img {
+  position:absolute;
+}
+
+
+/* section.active{
+  visibility: visible;
+} */
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type:  none;
+}
+
+hr{
+  visibility: hidden;
+}
+
+h1 {
+  font-family: 'Big Shoulders Stencil Text', cursive;'
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+
+
+/* HOME ************************************************/
+#home{
+  background-image:url(img/nebelNEU.jpg);
+  background-position: center center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+
+.Headline h1 {
+  position: absolute;
+  font-size: 145px;
+  margin: 0px;
+  float: left;
+  white-space: nowrap;
+  color: red;
+  transform: rotate(-30deg);
+  margin: 280px 0px 0px 50px;
+}
+
+
+
+
+#home .firstHeadline {
+  font-size: 6rem;
+  margin: 0px;
+  float: left;
+  white-space: nowrap;
+  color: red;
+  transform: rotate(-30deg);
+  margin: 280px 0px 0px 50px;
+  animation: flackern 4s infinite;
+
+  text-shadow:
+    0 0 0        rgba(231, 116, 116, 0.2),
+   0 0 0 rgba(199, 207, 211, 0.5),
+    0 0 0  rgba(199, 207, 211, 0.7);
+
+
+}
+
+
+
+
+
+
+
+
+
+@keyframes flackern {
+
+
+
+0% {
+    opacity: 0%
+  }
+50% {
+      opacity: 0%;
+}
+90% {
+  text-shadow:
+  0.35em 0 0 rgba(199, 207, 211, 0.5);
+}
+93%{
+  opacity: 0%;
+}
+97% {
+    opacity: 0%;
+}
+100% {
+      text-shadow:
+/*       0.35em 0 0        rgba(231, 116, 116, 0.2),
+      -0.35em -0.222em 0 rgba(199, 207, 211, 0.5), */
+       0.35em 0.25em 0  rgba(199, 207, 211, 0.7);
+}
+
+}
+
+
+#dunkelziffer1 {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 500px;
+  left: 600px;
+  visibility: hidden;
+  animation-name: sichtbar1;
+  animation-delay: 5s;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+
+  font-family: 'Big Shoulders Stencil Text', cursive;'
+  font-weight: 500;
+  text-transform: uppercase
+}
+
+#dunkelziffer1 span {
+  font-size: 30px;
+}
+
+@keyframes sichtbar1 {
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
+
+
+
+
+  40% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  45% {
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: visible;
+  }
+}
+
+
+
+#dunkelziffer2 {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 200px;
+  left: 1000px;
+  visibility: hidden;
+  animation-name: sichtbar2;
+  animation-delay: 20s;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+
+  font-family: 'Big Shoulders Stencil Text', cursive;'
+  font-weight: 500;
+  text-transform: uppercase
+}
+
+#dunkelziffer2 span {
+  font-size: 30px;
+}
+
+@keyframes sichtbar1 {
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
+
+
+
+
+  40% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  45% {
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: visible;
+  }
+}
+
+
+
+#dunkelziffer3 {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 500px;
+  left: 600px;
+  visibility: hidden;
+  animation-name: sichtbar1;
+  animation-delay: 15s;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+
+  font-family: 'Big Shoulders Stencil Text', cursive;'
+  font-weight: 500;
+  text-transform: uppercase
+}
+
+#dunkelziffer3 span {
+  font-size: 30px;
+}
+
+
+
+
+#dunkelziffer3 {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  top: 200px;
+  left: 200px;
+  visibility: hidden;
+  animation-name: sichtbar2;
+  animation-delay: 30s;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+
+  font-family: 'Big Shoulders Stencil Text', cursive;'
+  font-weight: 500;
+  text-transform: uppercase
+}
+
+#dunkelziffer3 span {
+  font-size: 30px;
+}
+
+
+@keyframes sichtbar2 {
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
+
+
+
+
+  40% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  60% {
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: visible;
+  }
+}
+
+
+
+
+
+
+
+.base-timer {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  margin-left: 240px;
+}
+
+.base-timer__svg {
+  transform: scaleX(-1);
+}
+
+.base-timer__circle {
+  fill: none;
+  stroke: none;
+}
+
+.base-timer__path-elapsed {
+  stroke-width: 7px;
+  stroke: grey;
+}
+
+.base-timer__path-remaining {
+  stroke-width: 7px;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  fill-rule: nonzero;
+  stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+  color: red;
+}
+
+.base-timer__path-remaining.orange {
+  color: red;
+}
+
+.base-timer__path-remaining.red {
+  color: red;
+}
+
+.base-timer__label {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+}
+
+
+
+
+
+ 
+#countdown {
+
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  margin: 300px auto auto 800px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+
+}
+
+
+
+
+
+#countdown h1 {
+
+color: #751f23;
+font-size: 70px;
+width: 100%;
+}
+
+
+
+
+/* ZITAT1 ************************************************/
+
+.zitat1 {
+  background-image:url(img/nebelNEU2.jpg);
+  background-position: center center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+
+  
+  
+
+}
+.zitat1 h1{
+  text-align: center;
+  font-size: 70px;
+  color:#751f23;
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.zitat1 p{
+  font-family: 'Courier New', Courier, monospace;
+  color:indianred;
+  text-align: right;
+  margin-right: 400px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+
+.schreiMann{
+  position: absolute;
+  bottom: -765px;
+  left: 0;
+
+  
+}
+.schreiFrau{
+  bottom:-765px;
+  left: 640px;
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ZITAT2 ************************************************/
+
+.zitat2{
+  background-image:url(img/nebelNEU3.jpg);
+  background-position: center center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+
+.zitat2 h1{
+  text-align: center;
+  font-size: 70px;
+  color:#751f23;
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.zitat2 p{
+  font-family: 'Courier New', Courier, monospace;
+  color:indianred;
+  text-align: right;
+  margin-right: 400px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.würgerMann{
+  bottom:-1550px;
+  left: 100px;
+  
+}
+.würgerFrau{
+  bottom:-1550px;
+  left: 580px;
+
+  
+}
+
+/* Schagzeilen ************************************************/
+
+#schlagzeilen{
+  background-image:url(img/nebelNEU2.jpg);
+  background-position: center center;
+  background-size: cover;
+
+}
+
+#schlagzeile {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color:#92292e;
+  font-size: 100px;
+
+}
+
+
+
+/* Statistik ************************************************/
+
+
+#statistik-2019 {
+
+  background-image:url(img/nebel4.png);
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  font-family: 'Arvo', bold;
+  text-transform: uppercase;
+  z-index: 10;
+  display: block;
+}
+
+
+
+
+
+
+
+
+#chart-wrapper {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  left: 950px;
+  top: 100px;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out
+}
+
+#chart-wrapper .zahlen{
+  display: none;
+  text-align: left;
+}
+
+
+#statistik-2019 .zahlen  h1 {
+  color:#751f23;
+  font-size: 20px;
+  text-align: left;
+}
+
+#chart-wrapper .zahlen p {
+  font-family: 'Arvo', bold;
+  font-size: 10px;
+  text-align: left;
+  margin: 0;
+}
+
+
+#myChart:hover + .zahlen {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+#chart-wrapper #großeZahl{
+  font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#chart-wrapper2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 250px;
+  left: 200px;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out
+}
+#chart-wrapper2 .zahlen2{
+  display: none;
+  text-align: left;
+}
+
+#statistik-2019 .zahlen2  h1 {
+  color:#751f23;
+  font-size: 20px;
+  text-align: left;
+}
+
+#chart-wrapper2 .zahlen2 p {
+  font-family: 'Arvo', bold;
+  font-size: 10px;
+  text-align: left;
+  margin: 0;
+}
+
+
+#myChart2:hover + .zahlen2 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+
+#chart-wrapper2 #großeZahl{
+  font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#chart-wrapper3 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 400px;
+  left: 750px;
+  -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out
+}
+#chart-wrapper3 .zahlen3{
+  display: none;
+  text-align: left;
+}
+
+#statistik-2019 .zahlen3  h1 {
+  color:#751f23;
+  font-size: 20px;
+  text-align: left;
+}
+
+#chart-wrapper3 .zahlen3 p {
+  font-family: 'Arvo', bold;
+  font-size: 10px;
+  text-align: left;
+  margin: 0;
+}
+
+
+#myChart3:hover + .zahlen3 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+
+#chart-wrapper3 #großeZahl{
+  font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#chart-wrapper4 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 450px;
+  left: 1100px;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out
+}
+
+
+
+#chart-wrapper4 .zahlen4{
+  display: none;
+  text-align: left;
+}
+
+#statistik-2019 .zahlen4  h1 {
+  color:#751f23;
+  font-size: 20px;
+  text-align: left;
+}
+
+#chart-wrapper4 .zahlen4 p {
+  font-family: 'Arvo', bold;
+  font-size: 10px;
+  text-align: left;
+  margin: 0;
+}
+
+
+#myChart4:hover + .zahlen4 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+
+#chart-wrapper4 #großeZahl{
+  font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#chart-wrapper5 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 150px;
+  left: 600px;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out; 
+  -moz-transition: all 0.5s ease-out; 
+  transition: all 0.5s ease-out 
+}
+#chart-wrapper5 .zahlen5{
+  display: none;
+  text-align: left;
+}
+
+#statistik-2019 .zahlen5  h1 {
+  color:#751f23;
+  font-size: 20px;
+  text-align: left;
+}
+
+#chart-wrapper5 .zahlen5 p {
+  font-family: 'Arvo', bold;
+  font-size: 10px;
+  text-align: left;
+  margin: 0;
+}
+
+
+#myChart5:hover + .zahlen5 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+
+#chart-wrapper5 #großeZahl{
+  font-size:30px;
+}
+
+
+
+
+
+
+
+gsap.registerPlugin(ScrollTrigger); 
+
+
+gsap.to(".schreiMann" , {
+    scrollTrigger: {
+        trigger: ".schreiMann",
+        toggleActions: "restart none none none"
+    },
+    x:200,
+    duration: 2
+});
+
+
+
+gsap.to(".schreiFrau" , {
+    scrollTrigger: {
+        trigger: ".schreiFrau",
+        toggleActions: "restart none none none"
+    },
+    x:- 150,
+    duration: 2
+});
+
+
+gsap.to(".würgerMann" , {
+    scrollTrigger: {
+        trigger: ".würgerMann",
+        toggleActions: "restart none none none"
+    },
+    x:100,
+    duration: 2
+});
+
+gsap.to(".würgerFrau" , {
+    scrollTrigger: {
+        trigger: ".würgerFrau",
+        toggleActions: "restart none none none"
+    },
+    x:-100,
+    duration: 2
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#statistik-2019 h1{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 50px;
+  z-index: 210000;
+
+}
+
+#statistik-2019 #linie1 {
+  visibility: visible;
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center; 
+  justify-content: center;
+  top: 50%;
+  border: dashed 1px #751f23;
+  size: 2px;
+}
+
+#statistik-2019 #linie2 {
+  visibility: visible;
+  position: absolute;
+  width: 100vh;
+  margin: 0 auto;
+  align-items: center; 
+  justify-content: center;
+  bottom: 50%;
+  left: 25%;
+  border: dashed 1px #751f23;
+  transform: rotate(90deg);
+
+}
+
+#statistik-2019 #Männer {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #805f5f;
+  top: 130px;
+  left: 50px;
+  border-radius: 25%;
+
+
+}
+
+#statistik-2019 #Frauen {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color:#981400;
+  left: 50px;
+  top: 90px;
+  border-radius: 25%;
+
+}
+
+#statistik-2019 #focus {
+  position: absolute;
+  height: 50px;
+  width:50px;
+  border-radius: 50%;
+  border: 2px solid #751f23;
+  right: 100px;
+  bottom: 100px;
+}
+
+#statistik-2019 #focus2 {
+  position: absolute;
+  height: 30px;
+  width:30px;
+  border-radius: 50%;
+  border: 2px solid #751f23;
+  right: 8px;
+  bottom: 8px;
+}
+
+
+#statistik-2019 p{
+  position: relative;
+  margin-left: 40px;
+  margin-top: 8px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-family: 'Arvo', bold;
+  text-transform: uppercase;
+  font-weight: 500;
+  
+}
+
+#statistik-2019 ul li {
+
+  position: relative;
+  bottom: 0;
+  left: 0;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+#statistik-2019 ul li:hover{
+  text-decoration: underline;
+}
+
+#statistik-2019 ul li a {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#jahreszahlen{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+
+}
+
+
+/* Statistik 2018 ************************************************/
+
+
+
+#statistik-2018 {
+
+  background-image:url(img/nebel4.png);
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  font-family: 'Arvo', bold;
+  text-transform: uppercase;
+  z-index: 10;
+  display: block;
+}
+
+
+
+
+
+
+
+
+#aachart-wrapper {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  left: 600px;
+  top: 250px;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out
+}
+
+#aachart-wrapper .zahlen{
+  display: none;
+  text-align: left;
+}
+
+
+#statistik-2018 .zahlen  h1 {
+  color:#751f23;
+  font-size: 20px;
+  text-align: left;
+}
+
+#aachart-wrapper .zahlen p {
+  font-family: 'Arvo', bold;
+  font-size: 10px;
+  text-align: left;
+  margin: 0;
+}
+
+
+#aamyChart:hover + .zahlen {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+#aachart-wrapper #großeZahl{
+  font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#aachart-wrapper2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 120px;
+  left: 1000px;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out
+}
+#aachart-wrapper2 .zahlen2{
+  display: none;
+  text-align: left;
+}
+
+#statistik-2018 .zahlen2  h1 {
+  color:#751f23;
+  font-size: 20px;
+  text-align: left;
+}
+
+#aachart-wrapper2 .zahlen2 p {
+  font-family: 'Arvo', bold;
+  font-size: 10px;
+  text-align: left;
+  margin: 0;
+}
+
+
+#aamyChart2:hover + .zahlen2 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+
+#aachart-wrapper2 #großeZahl{
+  font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#aachart-wrapper3 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 400px;
+  left: 250px;
+  -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out
+}
+#aachart-wrapper3 .zahlen3{
+  display: none;
+  text-align: left;
+}
+
+#statistik-2018 .zahlen3  h1 {
+  color:#751f23;
+  font-size: 20px;
+  text-align: left;
+}
+
+#aachart-wrapper3 .zahlen3 p {
+  font-family: 'Arvo', bold;
+  font-size: 10px;
+  text-align: left;
+  margin: 0;
+}
+
+
+#aamyChart3:hover + .zahlen3 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+
+#aachart-wrapper3 #großeZahl{
+  font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#aachart-wrapper4 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 100px;
+  left: 300px;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out
+}
+
+
+
+#aachart-wrapper4 .zahlen4{
+  display: none;
+  text-align: left;
+}
+
+#statistik-2018 .zahlen4  h1 {
+  color:#751f23;
+  font-size: 20px;
+  text-align: left;
+}
+
+#aachart-wrapper4 .zahlen4 p {
+  font-family: 'Arvo', bold;
+  font-size: 10px;
+  text-align: left;
+  margin: 0;
+}
+
+
+#aamyChart4:hover + .zahlen4 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+
+#aachart-wrapper4 #großeZahl{
+  font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#aachart-wrapper5 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 500px;
+  left: 1200px;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out; 
+  -moz-transition: all 0.5s ease-out; 
+  transition: all 0.5s ease-out 
+}
+#aachart-wrapper5 .zahlen5{
+  display: none;
+  text-align: left;
+}
+
+#statistik-2018 .zahlen5  h1 {
+  color:#751f23;
+  font-size: 20px;
+  text-align: left;
+}
+
+#aachart-wrapper5 .zahlen5 p {
+  font-family: 'Arvo', bold;
+  font-size: 10px;
+  text-align: left;
+  margin: 0;
+}
+
+
+#aamyChart5:hover + .zahlen5 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+
+#aachart-wrapper5 #großeZahl{
+  font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#statistik-2018 h1{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 50px;
+  z-index: 210000;
+
+}
+
+#statistik-2018 #linie1 {
+  visibility: visible;
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center; 
+  justify-content: center;
+  top: 50%;
+  border: dashed 1px #751f23;
+  size: 2px;
+}
+
+#statistik-2018 #linie2 {
+  visibility: visible;
+  position: absolute;
+  width: 100vh;
+  margin: 0 auto;
+  align-items: center; 
+  justify-content: center;
+  bottom: 50%;
+  left: 25%;
+  border: dashed 1px #751f23;
+  transform: rotate(90deg);
+
+}
+
+#statistik-2018 #Männer {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #805f5f;
+  top: 130px;
+  left: 50px;
+  border-radius: 25%;
+
+
+}
+
+#statistik-2018 #Frauen {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color:#981400;
+  left: 50px;
+  top: 90px;
+  border-radius: 25%;
+
+}
+
+#statistik-2018 #focus {
+  position: absolute;
+  height: 50px;
+  width:50px;
+  border-radius: 50%;
+  border: 2px solid #751f23;
+  right: 100px;
+  bottom: 100px;
+}
+
+#statistik-2018 #focus2 {
+  position: absolute;
+  height: 30px;
+  width:30px;
+  border-radius: 50%;
+  border: 2px solid #751f23;
+  right: 8px;
+  bottom: 8px;
+}
+
+#statistik-2018 p{
+  position: relative;
+  margin-left: 40px;
+  margin-top: 8px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-family: 'Arvo', bold;
+  text-transform: uppercase;
+  font-weight: 500;
+  
+}
+
+#statistik-2018 ul li {
+
+  position: relative;
+  bottom: 0;
+  left: 0;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+#statistik-2018 ul li:hover{
+  text-decoration: underline;
+}
+
+#statistik-2018 ul li a {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#jahreszahlen{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+
+
+/*---------Statistik 2017 -----*/
+
+
+
+
+
+
+
+
+
+
+#abgelaufeneTimer{
+
+  background-image:url(img/nebel2.png);
+  background-position: center center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+#abgelaufeneTimer h1 {
+
+  font-size: 50px;
+  margin-top: 20px;
+}
+

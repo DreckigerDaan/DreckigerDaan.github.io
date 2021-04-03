@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Häusliche Gewalt</title>
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js"></script>
+
+    <section id ="home" data-section="0" class="active">
+
+        <div class="Headline"><h1>Häusliche Gewalt<h1></div>
+        <div class="firstHeadline" ><h1>Häusliche Gewalt</h1>
+  
+
+      
+        </div>
+
+        <div id="dunkelziffer1"><span>02:16</span><br> „Er war halt betrunken" </div>
+        <div id="dunkelziffer2"><span>01:43</span><br> „Er hat es nicht so gemeint"</div>
+        <div id="dunkelziffer3"><span>00:23</span><br> „Ach, das ist nur ein kleiner blauer Fleck"</div>
+        <div id="dunkelziffer4"></div>
+        <div id="dunkelziffer5"></div>
+
+
+      <div id="countdown">
+        <h1>Jede 3. Minute ein neuer Fall</h1>
+            
+                <div id="app"></div>
+            
+           </div>
+              <script type="text/javascript" src="js/timerHEAD.js"></script>
+
+          
+
+
+
+<!--   <script type="text/javascript" src="js/scroll.js"></script> -->
+  </section>
+
+
+  
+
+
+  <section class="zitat1">
+
+
+  
+      <hr>
+      <h1>„Bin auf die Knie gegangen <br>
+        und habe ihn angebettelt dass <br>
+         er unser Kind in Ruhe lässt“</h1>
+      <p>Birgit, 55 Jahre</p>
+
+
+      
+            
+    
+            <img src="/css/img/schreiMann.png"  class="schreiMann" width="250px" height="300px">
+
+            <img src="/css/img/schreiFrau.png"  class="schreiFrau" width="150px" height="300px">
+
+           
+            
+    </section>
+  
+
+
+
+
+    <section class="zitat2" data-section="2">
+      <hr>
+      <h1>„Ich habe Angst <br>
+          nach Hause zu kommen <br>
+          wenn er da ist“ </h1>
+      <p>Monika, 32 Jahre</p>
+     
+        
+            <img  src="/css/img/würgerMann.png" class="würgerMann" width="350px" height="300px">
+
+            <img  src="/css/img/würgerFrau.png"   class="würgerFrau" width="250px" height="300px">
+ 
+    </section> 
+
+
+    
+    <section id="schlagzeilen" data-section="5">
+
+      <h1 id="schlagzeile">Pandemie - Gewalt war schon vorher da und ist durch den Lockdown eskaliert</h1>
+
+    </section>
+    <script type="text/javascript" src="js/schlagzeilen.js"></script>
+
+    <script type="text/javascript" src="js/focus.js"></script>
+
+
+
+
+
+
+    <section id="statistik-2019" data-section="4">
+
+      
+
+
+      <h1>Prozentuale Anteile weiblicher und männlicher Opfer partnerschaftlicher Gewalt nach Straftaten 2019</h1>
+
+      <hr id="linie1">
+      <hr id="linie2">
+
+
+      <div id="Männer"><p>männlich</p></div>
+      <div id="Frauen"><p>weiblich</p></div>
+
+        
+        <div onclick="move()"><div  id="focus"><div id="focus2"></div></div></div>
+
+  
+      
+            
+    
+          <div id="chart-wrapper">
+            <canvas id="myChart" width="400px" height="400px"></canvas>
+              <div class="zahlen">
+                <h1>Fälle der häuslichen Gewalt 2019</h1>
+              <span>
+                <span id="großeZahl">141.792 </span> <br>
+                <span>114.903 Frauen <br>
+                26.889   Männer</span>
+            </div>
+            
+            
+          </div>
+          <div id="chart-wrapper2">
+
+          
+
+            
+            <canvas id="myChart2" width="300px" height="300px"></canvas>
+            <div class="zahlen2">
+              <h1>Körperverletzung</h1>
+              <span id="großeZahl">86.812 </span> <br>
+              <span>66.854 Frauen <br>
+              19.967   Männer</span>
+            
+            
+
+          </div>
+        </div>  
+
+        <div id="chart-wrapper3">
+
+        <canvas id="myChart3" width="200px" height="200px"></canvas>
+         <div class="zahlen3">
+            <h1>Stalking, Bedrohung, Nötigung</h1>
+            <span id="großeZahl">32.477</span> <br>
+              <span>28.579 Frauen <br>
+              3.898  Männer</span>
+
+
+
+            </div>
+          </div>
+            <div id="chart-wrapper4"> 
+              <canvas id="myChart4" width="125px" height="125px"></canvas>
+
+              <div class="zahlen4">
+                  <h1>sexuelle Übergriffe, sexuelle Nötigung, <br>
+                      Vergewaltigung</h1>
+                  <span id="großeZahl">3.086</span> <br>
+                  <span> 3.024 Frauen <br>
+                  62  Männer</span>
+              </div>
+            </div>
+
+
+        <div id="chart-wrapper5">
+          <canvas id="myChart5" width="50px" height="50px"></canvas>
+         <div class="zahlen5">
+            <h1>Freiheitsberaubung</h1>
+            <span id="großeZahl">1.679</span> <br>
+              <span>1.494 Frauen <br>
+              185  Männer</span>
+
+
+
+          </div>
+
+          </div>
+
+
+
+
+
+
+
+
+      <div id="jahreszahlen">
+      <ul>
+        <li><div onclick="showSection('statistik-2019');">2019</div></li>
+        <li><div onclick="showSection('statistik-2018');">2018</div></li>
+      </ul>
+    </div>
+      
+      
+
+    </section>
+
+
+
+
+    <section id="statistik-2018">
+
+
+
+      <h1>Prozentuale Anteile weiblicher und männlicher Opfer partnerschaftlicher Gewalt nach Straftaten 2018</h1>
+
+      <hr id="linie1">
+      <hr id="linie2">
+
+
+      <div id="Männer"><p>männlich</p></div>
+      <div id="Frauen"><p>weiblich</p></div>
+
+        
+        <div onclick="move2()"><div  id="focus"><div id="focus2"></div></div></div>
+
+  
+      
+            
+    
+          <div id="aachart-wrapper">
+            <canvas id="aamyChart" width="400px" height="400px"></canvas>
+              <div class="zahlen">
+                <h1>Fälle der häuslichen Gewalt 2018</h1>
+              <span>
+                <span id="großeZahl">140.755 </span> <br>
+                <span>114.393 Frauen <br>
+                26.362   Männer</span>
+            </div>
+            
+            
+          </div>
+          <div id="aachart-wrapper2">
+
+          
+
+            
+            <canvas id="aamyChart2" width="300px" height="300px"></canvas>
+            <div class="zahlen2">
+              <h1>Körperverletzung</h1>
+              <span id="großeZahl">85.685 </span> <br>
+              <span>68.482 Frauen <br>
+              17.203   Männer</span>
+            
+            
+
+          </div>
+        </div>  
+
+        <div id="aachart-wrapper3">
+
+        <canvas id="aamyChart3" width="200px" height="200px"></canvas>
+         <div class="zahlen3">
+            <h1>Stalking, Bedrohung, Nötigung</h1>
+            <span id="großeZahl">32.376</span> <br>
+              <span>28.657 Frauen <br>
+              3.719  Männer</span>
+
+
+
+            </div>
+          </div>
+            <div id="aachart-wrapper4"> 
+              <canvas id="aamyChart4" width="125px" height="125px"></canvas>
+
+              <div class="zahlen4">
+                  <h1>sexuelle Übergriffe, sexuelle Nötigung, <br>
+                      Vergewaltigung</h1>
+                  <span id="großeZahl">3.136</span> <br>
+                  <span> 3.086 Frauen <br>
+                  50  Männer</span>
+              </div>
+            </div>
+
+
+        <div id="aachart-wrapper5">
+          <canvas id="aamyChart5" width="50px" height="50px"></canvas>
+         <div class="zahlen5">
+            <h1>Freiheitsberaubung</h1>
+            <span id="großeZahl">1.806</span> <br>
+              <span>1.612 Frauen <br>
+              194  Männer</span>
+
+
+
+          </div>
+
+          </div>
+
+
+
+
+
+
+
+
+      <div id="jahreszahlen">
+      <ul>
+        <li><div onclick="showSection('statistik-2019');">2019</div></li>
+        <li><div onclick="showSection('statistik-2018');">2018</div></li>
+      </ul>
+    </div>
+      
+      
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--   <section id="abgelaufeneTimer">
+
+      <h1>Abelaufene Timer nach Start der Seite 00.00.0000</h1>
+
+
+
+
+    </section> -->
+
+  
+
+    <script type="text/javascript" src="js/gewalt.js"></script>
+    <script type="text/javascript" src="js/changeContent.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="js/chart.js"></script>
+    
+  </body>
+</html>
